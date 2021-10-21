@@ -10,7 +10,7 @@ env:
   ECR_REPOSITORY: nginx        
   ECS_SERVICE: application            
   ECS_CLUSTER: application            
-  ECS_TASK_DEFINITION: application 
+  ECS_TASK_DEFINITION: task-definition.json
                                               
   CONTAINER_NAME: application      
                                                
